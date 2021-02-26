@@ -9,7 +9,7 @@ describe("Words") do
   end
   it('check both words for possible anagrams regardless of capitalization') do
     word = Words.new("Dusty", "Study")
-    expect(word.anagram()).to(eq("Hey, look! '' and '' are anagrams!"))
+    expect(word.anagram()).to(eq("Hey, look! 'Dusty' and 'Study' are anagrams!"))
   end
   # it('') do
   # end
