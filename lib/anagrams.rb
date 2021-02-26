@@ -41,5 +41,4 @@ class Words
       "Please enter a real word!"
     end
   end
-
 end
