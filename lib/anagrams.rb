@@ -42,5 +42,6 @@ class Words
     end
   end
   def palindrome
+    words = @string_1.split(' ')
   end
 end
