@@ -13,7 +13,7 @@ describe("Words") do
   end
   it('check if either string contains a vowel, if not then it will return not a real word') do
     word = Words.new("xzb", "brg")
-    expect(word.anagram()).to(eq(""))
+    expect(word.anagram()).to(eq("Please enter a real word!"))
   end
   # it('') do
   # end
