@@ -1,10 +1,11 @@
 # Anagrams and Antigrams
 #### *Co-Created By: Zack Rutledge*
-#### *Anagrams and Antigrams*
 
 * * *
 
 ## Description
+This app will intake two strings and tell you if they are Anagrams, Antigrams, and or just plain old not words! How fun!
+
 * * *
 
 ## Technologies used

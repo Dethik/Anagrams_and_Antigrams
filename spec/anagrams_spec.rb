@@ -17,8 +17,18 @@ describe("Words") do
   end
   it('check if both strings contain NO letters the same to send back antigrams') do
     word = Words.new("Josh", "Mack")
-    expect(word.anagram()).to(eq("These strings are antigrams!"))
+    expect(word.anagram()).to(eq("*le gasp!* 'Josh' and 'Mack' are antigrams!"))
   end
+  it('check if the strings are anagrams regardless of spaces or punctuation') do
+    word = Words.new("Dirty Room", "Dormitory")
+    expect(word.anagram()).to(eq(""))
+  end
+  # it('') do
+  # end
+  # it('') do
+  # end
+  # it('') do
+  # end
   # it('') do
   # end
 end

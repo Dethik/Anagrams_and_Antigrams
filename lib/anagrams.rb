@@ -8,8 +8,16 @@ class Words
   def initialize(string_1, string_2)
     @string_1 = string_1
     @string_2 = string_2
-    @array_1 = string_1.downcase.split('').sort
-    @array_2 = string_2.downcase.split('').sort
+    @array_1 = string_1.downcase.split('').sort.delete_if{|x| x == " "}
+    @array_2 = string_2.downcase.split('').sort.delete_if{|x| x == " "}
+    @string_1.delete! "."
+    @string_1.delete! ","
+    @string_1.delete! "!"
+    @string_1.delete! "?"
+    @string_2.delete! "."
+    @string_2.delete! ","
+    @string_2.delete! "!"
+    @string_2.delete! "?"
   end
 
   def anagram
@@ -21,12 +29,12 @@ class Words
         end
       end
       if counter == 0
-        "These strings are antigrams!"
+        "*le gasp!* '#{@string_1}' and '#{@string_2}' are antigrams!"
       else
         if @array_1 == @array_2
           "Hey, look! '#{@string_1}' and '#{@string_2}' are anagrams!"
-        # else
-        #   "These are not anagrams!"
+        else
+          "These are not anagrams!"
         end
       end
     else
