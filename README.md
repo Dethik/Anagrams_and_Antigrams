@@ -1,6 +1,6 @@
-# Template README
+# Anagrams and Antigrams
 #### *Co-Created By: Zack Rutledge*
-#### **
+#### *Anagrams and Antigrams*
 
 * * *
 
@@ -15,8 +15,6 @@
 
 
 ## Installation :
-### Want to see this webpage now?
-###### See this web page in action on [Github Pages]({repo})
 
 * Go to (  ).
 
@@ -37,42 +35,16 @@
 git clone 
 ```
 
-<div
-  style="
-    background-color: #d1ecf1;
-    color: grey; padding: 6px;
-    font-size: 9px;
-    border-radius: 5px;
-    border: 1px solid #d4ecf1;
-    margin-bottom: 12px"
->
-  <span
-    style="
-      font-size: 12px;
-      font-weight: 600;
-      color: #0c5460;"
-  >
-    ⓘ
-  </span>
-  <span
-    style="
-      font-size: 12px;
-      font-weight: 900;
-      color: #0c5460;
-      margin-bottom: 24px"
-  >
-    Note :
-  </span>
-  If you have any problems make sure your HTTPS code is correct! The example above might not be the most recent HTTPS code!
-</div>
-
-
 * Then after the process is completed use the command.
 
 ``` bash
 code .
 ```
 
+- Upon opening the project you will need to run this command in the terminal to install the required Ruby Gems!
+``` bash
+bundle
+```
 
 ## Addition comments:
 * Created on 2/26/21
