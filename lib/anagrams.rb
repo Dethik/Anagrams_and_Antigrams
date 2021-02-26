@@ -38,6 +38,7 @@ class Words
       end
     else
       "Please enter a real word!"
+      palindrome()
     end
   end
   def palindrome
