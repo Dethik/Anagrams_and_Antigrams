@@ -33,7 +33,7 @@ class Words
         if @array_1 == @array_2
           "Hey, look! '#{@string_1}' and '#{@string_2}' are anagrams!"
         else
-          "These are not anagrams!"
+          "Darn, '#{@string_1}' and '#{@string_2}' are not anagrams!"
         end
       end
     else
@@ -42,5 +42,36 @@ class Words
   end
   def palindrome
     words = @string_1.split(' ')
+    words.each do |word|
+      chars = word.split('')
+      palin_array = []
+      x = chars.length
+      while x > 0
+        palin_array.push(chars[x-1])
+        x -= 1
+      end
+      if palin_array.join == word
+        "In the first String, #{word} is a palindrome"
+        true
+      else
+        false
+      end
+    end
+    words2 = @string_2.split(' ')
+    words2.each do |word|
+      chars = word.split('')
+      palin_array = []
+      x = chars.length
+      while x > 0
+        palin_array.push(chars[x-1])
+        x -= 1
+      end
+      if palin_array.join == word
+        "In the second String, #{word} is a palindrome"
+        true
+      else
+        false
+      end
+    end
   end
 end

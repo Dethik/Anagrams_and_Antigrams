@@ -25,8 +25,8 @@ describe("Words") do
   end
   it('check if two strings that arent anagrams return the correct value') do
     word = Words.new("problem", "child")
-    expect(word.anagram()).to(eq("These are not anagrams!"))
+    expect(word.anagram()).to(eq("Darn, 'problem' and 'child' are not anagrams!"))
   end
-  # it('') do
-  # end
+  it('') do
+  end
 end
