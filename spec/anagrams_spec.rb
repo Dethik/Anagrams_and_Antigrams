@@ -15,6 +15,8 @@ describe("Words") do
     word = Words.new("xzb", "brg")
     expect(word.anagram()).to(eq("Please enter a real word!"))
   end
-  # it('') do
-  # end
+  it('check if both strings contain NO letters the same to send back antigrams') do
+    word = Words.new("Josh", "Mack")
+    expect(word.anagram()).to(eq(""))
+  end
 end
