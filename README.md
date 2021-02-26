@@ -49,7 +49,7 @@ bundle
 
 ## Addition comments:
 * Created on 2/26/21
-
+* Make sure when inputing a string ensure it is from the English Language
 
 * * *
 

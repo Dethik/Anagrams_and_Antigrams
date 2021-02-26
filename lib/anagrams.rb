@@ -19,7 +19,6 @@ class Words
     @string_2.delete! "!"
     @string_2.delete! "?"
   end
-
   def anagram
     counter = 0
     if @array_1.any?{|x| ["a", "e", "i", "o", "u"].include?(x)}|| @array_2.any?{ |y| ["a","e","i","o","u"].include?(y)}
