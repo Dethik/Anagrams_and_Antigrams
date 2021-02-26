@@ -23,12 +23,10 @@ describe("Words") do
     word = Words.new("Dirty Room", "Dormitory")
     expect(word.anagram()).to(eq("Hey, look! 'Dirty Room' and 'Dormitory' are anagrams!"))
   end
-  # it('') do
-  # end
-  # it('') do
-  # end
-  # it('') do
-  # end
+  it('check if two strings that arent anagrams return the correct value') do
+    word = Words.new("problem", "child")
+    expect(word.anagram()).to(eq(""))
+  end
   # it('') do
   # end
 end

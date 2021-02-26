@@ -41,4 +41,6 @@ class Words
       "Please enter a real word!"
     end
   end
+  def palindrome
+  end
 end
