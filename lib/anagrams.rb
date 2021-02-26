@@ -13,14 +13,21 @@ class Words
   end
 
   def anagram
-    # counter = 0
-    # if @array_1.any?{|x| ["a", "e", "i", "o", "u"].include?(x)}|| @array_2.any?{ |y| ["a","e","i","o","u"].include?(y)}
-    #   @arr.each do |i|
-    #     counter += 1
-    #   end
-    # end
-    if @array_1 == @array_2
-      "Hey, look! '#{@string_1}' and '#{@string_2}' are anagrams!"
+    counter = 0
+    if @array_1.any?{|x| ["a", "e", "i", "o", "u"].include?(x)}|| @array_2.any?{ |y| ["a","e","i","o","u"].include?(y)}
+      # @array_2.each do |i|
+      #   if @array_1.include?(i)
+      #     counter += 1
+      #   end
+      # end
+      if @array_1 == @array_2
+        "Hey, look! '#{@string_1}' and '#{@string_2}' are anagrams!"
+      # else
+      #   "These are not anagrams!"
+      end
+    else
+      "Please enter a real word!"
     end
   end
+
 end
