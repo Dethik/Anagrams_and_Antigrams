@@ -27,6 +27,8 @@ describe("Words") do
     word = Words.new("problem", "child")
     expect(word.anagram()).to(eq("Darn, 'problem' and 'child' are not anagrams!"))
   end
-  it('') do
+  it('check if the strings contain any palindromes and return the amount to the user') do
+    word = Words.new("civic rotor", "rotor civic")
+    expect(word.palindrome()).to(eq(0))
   end
 end

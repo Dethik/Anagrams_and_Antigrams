@@ -41,6 +41,7 @@ class Words
     end
   end
   def palindrome
+    palin_count = 0
     words = @string_1.split(' ')
     words.each do |word|
       chars = word.split('')
@@ -52,6 +53,7 @@ class Words
       end
       if palin_array.join == word
         "In the first String, #{word} is a palindrome"
+        palin_count += 1
         true
       else
         false
@@ -68,10 +70,12 @@ class Words
       end
       if palin_array.join == word
         "In the second String, #{word} is a palindrome"
+        palin_count += 1
         true
       else
         false
       end
     end
+    palin_count
   end
 end

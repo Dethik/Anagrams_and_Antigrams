@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 require('./lib/anagrams.rb')
 
-puts "Hello and Welcome!"
 loop do
+  puts "Hello and Welcome!"
   puts "Please input a pair of strings for us!"
   string_1 = gets.chomp.to_s
   puts "and the second string please."
