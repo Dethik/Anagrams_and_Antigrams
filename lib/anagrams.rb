@@ -8,8 +8,8 @@ class Words
   def initialize(string_1, string_2)
     @string_1 = string_1
     @string_2 = string_2
-    @array_1 = string_1.split('').sort
-    @array_2 = string_2.split('').sort
+    @array_1 = string_1.downcase.split('').sort
+    @array_2 = string_2.downcase.split('').sort
   end
 
   def anagram
