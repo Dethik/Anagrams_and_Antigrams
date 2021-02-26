@@ -77,6 +77,6 @@ class Words
         false
       end
     end
-    palin_count
+    "You have #{palin_count} Palindromes within your strings! Fascinating!"
   end
 end
