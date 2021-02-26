@@ -21,7 +21,7 @@ describe("Words") do
   end
   it('check if the strings are anagrams regardless of spaces or punctuation') do
     word = Words.new("Dirty Room", "Dormitory")
-    expect(word.anagram()).to(eq(""))
+    expect(word.anagram()).to(eq("Hey, look! 'Dirty Room' and 'Dormitory' are anagrams!"))
   end
   # it('') do
   # end
