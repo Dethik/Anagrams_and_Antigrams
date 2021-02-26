@@ -29,6 +29,6 @@ describe("Words") do
   end
   it('check if the strings contain any palindromes and return the amount to the user') do
     word = Words.new("civic rotor", "rotor civic")
-    expect(word.palindrome()).to(eq(4))
+    expect(word.palindrome()).to(eq("You have 4 Palindromes within your strings! Fascinating!"))
   end
 end
