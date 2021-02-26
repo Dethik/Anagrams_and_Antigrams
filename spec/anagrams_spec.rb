@@ -5,7 +5,7 @@ require('anagrams')
 describe("Words") do
   it('Find whether two words are anagrams of eachother.') do
     word = Words.new("Cider", "Cried")
-    expect(word.anagram()).to(eq(""))
+    expect(word.anagram()).to(eq("Hey, look! 'Cider' and 'Cried' are anagrams!"))
   end
   # it('') do
   # end
