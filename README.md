@@ -1,5 +1,5 @@
 # Anagrams and Antigrams
-#### *Co-Created By: Zack Rutledge*
+#### *Created By: Zack Rutledge*
 
 * * *
 
