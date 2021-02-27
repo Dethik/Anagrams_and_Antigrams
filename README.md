@@ -5,35 +5,32 @@
 
 ## Description
 This app will intake two strings and tell you if they are Anagrams, Antigrams, and or just plain old not words! How fun!
+<br>
+Be sure to use only english words or sentences when using this app, and enjoy!
+
+[Repo Link](https://github.com/Dethik/Anagrams_and_Antigrams)
 
 * * *
 
 ## Technologies used
 * Ruby
-* Rspec
+* rspec
+* pry
 
 * * *
 
 
 ## Installation :
 
-* Go to (  ).
-
-*  Navigate to the code button on the github website.
-
-* Click on the code button to open the menu.
-
-- Copy the HTTPS code by clicking the clipboard next to the link.
-
-- Within your Bash terminal navigate to your desired location by using cd fallowed by your desired directory.
+- Within your Bash terminal navigate to your desired location by using cd followed by your desired directory, an example is below.
 
 ```bash
- cd Desktop
+ cd ~/Desktop
 ```
 
 - Once you have chosen your desired directory use the command.
 ```bash
-git clone 
+git clone https://github.com/Dethik/Anagrams_and_Antigrams
 ```
 
 * Then after the process is completed use the command.
@@ -49,7 +46,6 @@ bundle
 
 ## Addition comments:
 * Created on 2/26/21
-* Make sure when inputing a string ensure it is from the English Language
 
 * * *
 
